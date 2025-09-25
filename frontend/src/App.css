@@ -1,0 +1,28 @@
+body {
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+	margin: 0;
+	padding: 0.5rem 1rem;
+}
+
+.app-shell header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 0.5rem;
+}
+
+.app-shell nav a {
+	margin-right: 1rem;
+	text-decoration: none;
+	color: #0366d6;
+}
+
+.app-shell main {
+	padding-top: 1rem;
+}
+
+pre { white-space: pre-wrap; word-wrap: break-word; }
+
+
